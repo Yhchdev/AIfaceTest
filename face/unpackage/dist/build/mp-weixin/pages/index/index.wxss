@@ -1,0 +1,67 @@
+
+.content {
+	text-align: center;
+}
+.title {
+	font-size: 36rpx;
+	color: #8f8f94;
+}
+.progress_box{
+	position: relative;
+	width:220rpx;
+	height: 220rpx;  
+	display: -webkit-box;  
+	display: -webkit-flex;  
+	display: -ms-flexbox;  
+	display: flex;  
+	-webkit-box-align: center;  
+	-webkit-align-items: center;  
+	    -ms-flex-align: center;  
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	background-color: #eee;
+}
+.progress_bg{
+	position: absolute;
+	width:220rpx;
+	height: 220rpx;
+}
+.progress_canvas{ 
+	width:220rpx;
+	height: 220rpx;
+}
+.progress_text{ 
+	position: absolute; 
+	display: -webkit-box; 
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex;  
+	-webkit-box-align: center;  
+	-webkit-align-items: center;  
+	    -ms-flex-align: center;  
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center
+}
+.progress_info{   
+	font-size: 36rpx;
+	padding-left: 16rpx;
+	letter-spacing: 2rpx
+}
+.progress_dot{
+	width:16rpx;
+	height: 16rpx;  
+	border-radius: 50%;
+	background-color: #fb9126;
+}
+.uni-common-mt{
+	margin-top: 160rpx;
+}
+
+
+
